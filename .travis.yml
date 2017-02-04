@@ -1,5 +1,13 @@
 language: java
 install:
-  - mvn install
+- mvn install
 jdk:
-  - oraclejdk8
+- oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: M/S6my1oH5+//AWTXwrgNYWd9aTPXdnG1JuoS6UfPjAnCX6A5vyqjYdCt1OxGmlaB1gisXS+L3RZHt0+AHcRR4lxZoUKTfDwVC3KJW5Ajohzwq8GHq0iaVhwxMQ5j04AsT9j2pecToixauYomHma3bNydfkQjn0sfSQREkzgiAYxtkfr8JUMihExCBtzLKRrvTKqZ2B66M3Mznpkf03Tbh+OcBP7aM/7kUW2ByYJhknqP59sL6RfmXPt8U/WkhrrKhvuBO8cj0fhUOKmCxTySMFfuW0R3PoFGiErxZiYjwO8N8+g58Cb5+T6l3jeO9AXH16c4MpTnBN4xgkTxcuIFj1ZaFjsMPq7HJ/EhPkWoYaABBfaOtZFPXX8nN9mdeI3D2Y/Ob53MuIOF6r/CtOX7wrnf7zdT7zxgHiLq5soK0YRk72ra3/dvCIT5LuO2PitQlaR0ZT4NGEFe1WWJ81ELGq4h2lI4F1kqv4u78EGuxy2xd89cf6N3O3SeET3jz3TRNdeII69lDztPRfOkXMep1X4qRZiaFz18tRehdQuduIbxzIS/UhEPRvlzbwc9JKu3pHJYUpNHssTey7yYWwjdc/rUJToiCjH3Sq0XyeBPSNg5qS9ncqoZ+aImgUuQtjbeKDiWWInd4Ej3c2ayJ1F4X6YmhXkOyDs4VX3tFlJ8Z8=
+  app: tony-addressbook
+  on:
+    repo: Toooooooony/addressbook
+    branch: tod​o_tasks

@@ -80,7 +80,7 @@
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
-                            <executions>
+                <executions>
                 <execution>
                     <phase>package</phase>
                     <goals><goal>copy</goal></goals>
@@ -96,6 +96,7 @@
                     </configuration>
                 </execution>
             </executions>
+                           
                 
             </plugin>
         </plugins>
